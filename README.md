@@ -2,6 +2,10 @@
 
 A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — showcasing my projects, skills, and experience as a Full Stack Developer.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge&logo=vercel)](https://portfolio-delta-orcin-9r8mvvs5lv.vercel.app/)
+
+**🌐 Live Site:** [https://portfolio-delta-orcin-9r8mvvs5lv.vercel.app/](https://portfolio-delta-orcin-9r8mvvs5lv.vercel.app/)
+
 ---
 
 ## 📚 Table of Contents
