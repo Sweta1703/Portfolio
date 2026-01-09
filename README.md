@@ -1,8 +1,6 @@
-# 🚀 3D Developer Portfolio
+# 🚀 Sweta Mondal - Full Stack Developer Portfolio
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
-
-![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
+A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — showcasing my projects, skills, and experience as a Full Stack Developer.
 
 ---
 
@@ -10,39 +8,94 @@ A modern, animated 3D developer portfolio built with React, Three.js, TailwindCS
 
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
+- [Projects](#-projects)
 - [Getting Started](#-getting-started)
-- [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
+- [Contact](#-contact)
 
 ---
 
 ## ✨ Features
 
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
+- 🔥 **3D Visuals** powered by React Three Fiber and Drei
+- ⚡ **Smooth Animations** using Framer Motion
+- 🎨 **Responsive Design** with TailwindCSS v4
+- 💌 **Working Contact Form** integrated with EmailJS
+- 🚀 **Lightning-Fast** development with Vite
+- 📱 **Mobile-First** approach for all devices
 
 ---
 
 ## 🛠 Tech Stack
 
-| Tech              | Description                           |
-|-------------------|---------------------------------------|
-| React             | Front-end JavaScript library          |
-| Vite              | Fast bundler and dev environment      |
-| TailwindCSS       | Utility-first CSS framework           |
-| React Three Fiber | 3D rendering with Three.js in React   |
-| Drei              | Helpers and abstractions for R3F      |
-| Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
+### Frontend
+- **React 19** - Modern UI library
+- **Vite** - Next-generation build tool
+- **TailwindCSS v4** - Utility-first CSS framework
+- **Three.js & React Three Fiber** - 3D graphics
+- **Framer Motion** - Advanced animations
+
+### Tools & Services
+- **EmailJS** - Contact form functionality
+- **Git & GitHub** - Version control
+- **Vercel** - Deployment platform
+
+---
+
+## 💼 Projects
+
+### 1. E-Commerce Platform (MERN Stack)
+Full-stack e-commerce application with:
+- JWT authentication
+- Stripe payment integration
+- Admin dashboard
+- Cloudinary image management
+- Real-time order tracking
+
+**Tech:** React, Node.js, Express, MongoDB, Stripe
+
+### 2. Interactive Web Applications
+Collection of JavaScript projects including:
+- **Weather API App** - Real-time weather data with location-based forecasts
+- **Calculator** - Responsive calculator with real-time computations
+- **Tic-Tac-Toe** - Interactive game with win detection
+- **Stopwatch** - Precision timer with lap tracking
+- **Rock-Paper-Scissors** - Game with AI opponent
+- **Amazon Clone** - Pixel-perfect UI recreation
+
+**Tech:** HTML5, CSS3, JavaScript, REST APIs
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/Sweta1703/Portfolio.git
+cd Portfolio
+```
+
+2. **Install Dependencies**
+```bash
+npm install
+```
+
+3. **Run Development Server**
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`
+
+4. **Build for Production**
+```bash
+npm run build
+```
 
 ---
 
@@ -50,67 +103,53 @@ A modern, animated 3D developer portfolio built with React, Three.js, TailwindCS
 
 ```bash
 ├── public/
-│   ├── assets/             # Images, textures, models
+│   ├── assets/             # Images, icons, logos
 │   ├── models/             # 3D Astronaut model
-│   └── vite.svg
+│   └── projects/           # Project screenshots
 ├── src/
 │   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
+│   ├── constants/          # Data and configuration
+│   ├── sections/           # Portfolio sections
+│   ├── App.jsx             # Main app component
+│   ├── index.css           # Global styles
 │   └── main.jsx            # Entry point
-├── tailwind.config.js
+├── package.json
 └── vite.config.js
 ```
 
 ---
 
-## 🚀 Getting Started
-1. Clone the Repository
-```bash
-git clone https://github.com/Ali-Sanati/Portfolio.git
-cd Portfolio
-```
-2. Install Dependencies
-```bash
-npm install
-```
-3. Run the Development Server
-```bash
-npm run dev
-```
-The app will be available at http://localhost:5173.
+## � Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mondalsweta)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/Sweta1703)
+
+**Email:** mondalsweta03@gmail.com
 
 ---
 
-## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
+## 🌟 About Me
+
+I'm a Full Stack Developer passionate about building real-world web applications. Currently interning at **Prodigy Infotech**, I specialize in:
+
+- Frontend Development (React, JavaScript, HTML/CSS)
+- Backend Development (Node.js, Express, MongoDB)
+- RESTful API Integration
+- Responsive UI/UX Design
+- Clean Code Practices & Design Principles
 
 ---
 
-## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ali.sanatidev/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-sanati/) 
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
-👉 What should I build next?
+## ⭐ Show Your Support
 
-- A beautiful Landing Page
-
-- A complete E-commerce site
-
-- A fun App Clone (YouTube, Netflix, etc.)
-
-Or another interactive Portfolio
-
-Let me know!
+If you like this portfolio, give it a ⭐ on GitHub!
 
 ---
 
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
+**Built with ❤️ by Sweta Mondal**
