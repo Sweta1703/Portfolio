@@ -7,7 +7,7 @@ export const myProjects = [
     subDescription: [
       "End-to-end shopping experience with JWT authentication, Stripe checkout, persistent cart, Cloudinary image hosting, and dedicated admin panel for product & order management.",
     ],
-    href: "",
+    href: "https://e-commerce-app-frontend-puce.vercel.app/",
     logo: "",
     image: "/assets/projects/E-commerce.png",
     tags: [
@@ -46,7 +46,7 @@ export const myProjects = [
     subDescription: [
       "A responsive calculator application built with vanilla JavaScript, HTML, and CSS. Features real-time calculations, clean UI design, and support for basic arithmetic operations including addition, subtraction, multiplication, and division.",
     ],
-    href: "",
+    href: "https://sweta1703.github.io/Calculator/",
     logo: "",
     image: "/assets/projects/Calculator.jpg",
     tags: [
@@ -75,7 +75,7 @@ export const myProjects = [
     subDescription: [
       "A dynamic weather application that fetches real-time weather data using external APIs. Features location-based forecasts, responsive design for all devices, and displays temperature, humidity, wind speed, and weather conditions with intuitive UI.",
     ],
-    href: "",
+    href: "https://sweta1703.github.io/Responsive_Weather_API/",
     logo: "",
     image: "/assets/projects/Weather.png",
     tags: [
@@ -104,7 +104,7 @@ export const myProjects = [
     subDescription: [
       "A fully functional stopwatch application featuring start, stop, reset, and lap time recording capabilities. Built with JavaScript timer functions, it provides accurate time tracking with a clean, user-friendly interface and responsive design.",
     ],
-    href: "",
+    href: "https://sweta1703.github.io/StopWatch/",
     logo: "",
     image: "/assets/projects/Stop Watch.jpg",
     tags: [
@@ -133,7 +133,7 @@ export const myProjects = [
     subDescription: [
       "A classic two-player Tic-Tac-Toe game built with JavaScript. Features intelligent win detection algorithms, turn-based gameplay, score tracking, and a reset function. Includes responsive design with smooth animations for an engaging user experience.",
     ],
-    href: "",
+    href: "https://sweta1703.github.io/Tic-Tac-Toe/",
     logo: "",
     image: "/assets/projects/tic-tac-toe.png",
     tags: [
@@ -162,7 +162,7 @@ export const myProjects = [
     subDescription: [
       "An interactive Rock-Paper-Scissors game featuring randomized computer moves, score tracking, and game state management. Implements game logic with conditional statements and provides instant feedback with visual indicators for wins, losses, and draws.",
     ],
-    href: "",
+    href: "https://sweta1703.github.io/Stone-Paper-Scissors/",
     logo: "",
     image: "/assets/projects/stone paper scissors.png",
     tags: [
@@ -180,30 +180,6 @@ export const myProjects = [
         id: 3,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
-      },
-    ],
-  },
-  {
-    id: 7,
-    title: "Amazon Clone",
-    description:
-      "Amazon Homepage Clone with Modern UI.",
-    subDescription: [
-      "A pixel-perfect recreation of Amazon's homepage using HTML and CSS. Demonstrates advanced CSS layout techniques including Flexbox and Grid, responsive design principles, and attention to detail in replicating complex UI components like navigation bars, product cards, and footers.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/Amazon.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
       },
     ],
   },
