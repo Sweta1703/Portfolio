@@ -40,146 +40,40 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Calculator",
+    title: "Just InTime",
     description:
-      "Interactive JavaScript Calculator with Real-Time Computations.",
+      "AI-Powered Intelligent Proxy with Self-Healing Reliability System.",
     subDescription: [
-      "A responsive calculator application built with vanilla JavaScript, HTML, and CSS. Features real-time calculations, clean UI design, and support for basic arithmetic operations including addition, subtraction, multiplication, and division.",
+      "Intelligent proxy layer ensuring zero-downtime through automatic traffic rerouting to fallback services during backend failures. Features a self-healing reliability mechanism with an AI watchdog that monitors error rates and triggers kill switches to stabilize the system. Implements logic-aware testing workflow where business requirements written in plain English are validated against backend services and code using AI-driven automation.",
     ],
-    href: "https://sweta1703.github.io/Calculator/",
+    href: "https://github.com/Sweta1703/Just-InTime-Final-2.2.0",
     logo: "",
-    image: "/assets/projects/Calculator.jpg",
+    image: "/assets/projects/Just InTime.png",
     tags: [
       {
         id: 1,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
+        name: "Express.js",
+        path: "/assets/logos/Express.svg",
       },
       {
         id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Responsive Weather API",
-    description:
-      "Real-Time Weather App with API Integration.",
-    subDescription: [
-      "A dynamic weather application that fetches real-time weather data using external APIs. Features location-based forecasts, responsive design for all devices, and displays temperature, humidity, wind speed, and weather conditions with intuitive UI.",
-    ],
-    href: "https://sweta1703.github.io/Responsive_Weather_API/",
-    logo: "",
-    image: "/assets/projects/Weather.png",
-    tags: [
-      {
-        id: 1,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
-        id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
+        id: 4,
+        name: "n8n",
+        path: "/assets/logos/n8n.svg",
       },
       {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "StopWatch",
-    description:
-      "Precision Stopwatch with Lap Time Tracking.",
-    subDescription: [
-      "A fully functional stopwatch application featuring start, stop, reset, and lap time recording capabilities. Built with JavaScript timer functions, it provides accurate time tracking with a clean, user-friendly interface and responsive design.",
-    ],
-    href: "https://sweta1703.github.io/StopWatch/",
-    logo: "",
-    image: "/assets/projects/Stop Watch.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Tic-Tac-Toe",
-    description:
-      "Interactive Tic-Tac-Toe Game with Win Detection.",
-    subDescription: [
-      "A classic two-player Tic-Tac-Toe game built with JavaScript. Features intelligent win detection algorithms, turn-based gameplay, score tracking, and a reset function. Includes responsive design with smooth animations for an engaging user experience.",
-    ],
-    href: "https://sweta1703.github.io/Tic-Tac-Toe/",
-    logo: "",
-    image: "/assets/projects/tic-tac-toe.png",
-    tags: [
-      {
-        id: 1,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Rock-Paper-Scissors",
-    description:
-      "Rock Paper Scissors Game with AI Opponent.",
-    subDescription: [
-      "An interactive Rock-Paper-Scissors game featuring randomized computer moves, score tracking, and game state management. Implements game logic with conditional statements and provides instant feedback with visual indicators for wins, losses, and draws.",
-    ],
-    href: "https://sweta1703.github.io/Stone-Paper-Scissors/",
-    logo: "",
-    image: "/assets/projects/stone paper scissors.png",
-    tags: [
-      {
-        id: 1,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
+        id: 5,
+        name: "Google Gemini",
+        path: "/assets/logos/gemini.svg",
       },
     ],
   },

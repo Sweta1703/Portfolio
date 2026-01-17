@@ -18,7 +18,21 @@ const Hero = () => {
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}
       >
-        <Canvas camera={{ position: [0, 1, 3] }}>
+        <Canvas
+          camera={{ position: [0, 1, 3] }}
+          onCreated={({ gl }) => {
+            // Handle WebGL context loss
+            gl.domElement.addEventListener('webglcontextlost', (event) => {
+              event.preventDefault();
+              console.warn('WebGL context lost. Attempting to restore...');
+            });
+
+            // Handle WebGL context restoration
+            gl.domElement.addEventListener('webglcontextrestored', () => {
+              console.log('WebGL context restored successfully');
+            });
+          }}
+        >
           <Suspense fallback={<Loader />}>
             <Float>
               <Astronaut
